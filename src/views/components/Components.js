@@ -12,7 +12,7 @@ import Footer from "../../components/Footer/Footer.js";
 import GridContainer from "../../components/Grid/GridContainer.js";
 import GridItem from "../../components/Grid/GridItem.js";
 import Button from "../../components/CustomButtons/Button.js";
-import HeaderLinks from "../../components/Header/HeaderLinks.js";
+import HeaderLinks from "../../components/Header/HeaderRightLinks.js";
 import Parallax from "../../components/Parallax/Parallax.js";
 import HowItWorksSection from "./Sections/HowItWorksSection.js"
 
@@ -51,7 +51,7 @@ export default function LandingPage(props) {
               <Button
                 color="danger"
                 size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
+                href="https://www.youtube.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
