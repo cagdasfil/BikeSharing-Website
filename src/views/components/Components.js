@@ -15,12 +15,15 @@ import Button from "../../components/CustomButtons/Button.js";
 import HeaderLinks from "../../components/Header/HeaderRightLinks.js";
 import Parallax from "../../components/Parallax/Parallax.js";
 import HowItWorksSection from "./Sections/HowItWorksSection.js"
+import TeamMembersSection from "./Sections/TeamMembersSection.js"
 
 import styles from "./../../assets/jss/material-kit-react/views/landingPage.js";
 
 const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
+
+
 
 export default function LandingPage(props) {
   const classes = useStyles();
@@ -65,8 +68,10 @@ export default function LandingPage(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
         <HowItWorksSection/>
+        <TeamMembersSection/>
         </div>
       </div>
+
       
       <Footer />
     </div>

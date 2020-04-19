@@ -60,12 +60,14 @@ const buttonStyle = {
     "&$justIcon": {
       "& .fab,& .fas,& .far,& .fal,& .material-icons": {
         marginRight: "0px",
+        marginLeft: "8px",
+        marginTop: "8px",
         position: "absolute",
-        width: "100%",
+        width: "60%",
         transform: "none",
         left: "0px",
         top: "0px",
-        height: "100%",
+        height: "60%",
         lineHeight: "41px",
         fontSize: "20px"
       }
