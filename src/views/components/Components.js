@@ -16,6 +16,7 @@ import HeaderLinks from "../../components/Header/HeaderRightLinks.js";
 import Parallax from "../../components/Parallax/Parallax.js";
 import HowItWorksSection from "./Sections/HowItWorksSection.js"
 import TeamMembersSection from "./Sections/TeamMembersSection.js"
+import DocumentsSection from "./Sections/DocumentsSection.js"
 
 import styles from "./../../assets/jss/material-kit-react/views/landingPage.js";
 
@@ -68,6 +69,7 @@ export default function LandingPage(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
         <HowItWorksSection/>
+        <DocumentsSection/>
         <TeamMembersSection/>
         </div>
       </div>
