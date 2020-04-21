@@ -17,6 +17,7 @@ import Parallax from "../../components/Parallax/Parallax.js";
 import HowItWorksSection from "./Sections/HowItWorksSection.js"
 import TeamMembersSection from "./Sections/TeamMembersSection.js"
 import DocumentsSection from "./Sections/DocumentsSection.js"
+import ContactUsSection from "./Sections/ContactUsSection.js"
 
 import styles from "./../../assets/jss/material-kit-react/views/landingPage.js";
 
@@ -47,7 +48,7 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Life Is Easier on a Bicycle.</h1>
+              <h1 className={classes.title}>Life Is on a Bicycle.</h1>
               <h4>
                 The project description will be here.
               </h4>
@@ -68,13 +69,13 @@ export default function LandingPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-        <HowItWorksSection/>
-        <DocumentsSection/>
-        <TeamMembersSection/>
+          <HowItWorksSection />
+          <DocumentsSection />
+          <TeamMembersSection />
         </div>
       </div>
 
-      
+
       <Footer />
     </div>
   );
