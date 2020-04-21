@@ -72,6 +72,7 @@ export default function LandingPage(props) {
           <HowItWorksSection />
           <DocumentsSection />
           <TeamMembersSection />
+          <ContactUsSection />
         </div>
       </div>
 

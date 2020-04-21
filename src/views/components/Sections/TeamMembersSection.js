@@ -57,19 +57,19 @@ export default function TeamSection() {
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                  href =  "https://www.linkedin.com/in/cevat-sener-2796a85/"
+                  href="https://www.linkedin.com/in/cevat-sener-2796a85/"
                 >
-                  <LinkedInIcon   className={classes.socials + " fab "}/>
+                  <LinkedInIcon className={classes.socials + " fab "} />
                 </Button>
                 <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                  href = "http://user.ceng.metu.edu.tr/~sener/"
+                  href="http://user.ceng.metu.edu.tr/~sener/"
                 >
-                  <LanguageIcon   className={classes.socials + " fab "}/>
+                  <LanguageIcon className={classes.socials + " fab "} />
                 </Button>
-            
+
               </CardFooter>
             </Card>
           </GridItem>
@@ -84,29 +84,29 @@ export default function TeamSection() {
                 <small className={classes.smallTitle}>Advisor </small>
               </h4>
               <CardFooter className={classes.justifyCenter}>
-              <Button
+                <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                  href = "https://www.linkedin.com/in/haldun-yildiz-29215732/"
+                  href="https://www.linkedin.com/in/haldun-yildiz-29215732/"
                 >
-                  <LinkedInIcon   className={classes.socials + " fab "}/>
+                  <LinkedInIcon className={classes.socials + " fab "} />
                 </Button>
                 <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                  href = "https://www.facebook.com/haldunyildizz"
+                  href="https://www.facebook.com/haldunyildizz"
                 >
-                  <FacebookIcon   className={classes.socials + " fab "}/>
+                  <FacebookIcon className={classes.socials + " fab "} />
                 </Button>
                 <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                  href = "https://www.instagram.com/haldunyildizz/"
+                  href="https://www.instagram.com/haldunyildizz/"
                 >
-                  <InstagramIcon   className={classes.socials + " fab "}/>
+                  <InstagramIcon className={classes.socials + " fab "} />
                 </Button>
               </CardFooter>
             </Card>
@@ -122,29 +122,29 @@ export default function TeamSection() {
                 <small className={classes.smallTitle}>Developer</small>
               </h4>
               <CardFooter className={classes.justifyCenter}>
-              <Button
+                <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                  href = "https://www.linkedin.com/in/cagdasfil/"
+                  href="https://www.linkedin.com/in/cagdasfil/"
                 >
-                  <LinkedInIcon   className={classes.socials + " fab "}/>
+                  <LinkedInIcon className={classes.socials + " fab "} />
                 </Button>
                 <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                  href = "https://www.facebook.com/cagdas.fil.5"
+                  href="https://www.facebook.com/cagdas.fil.5"
                 >
-                  <FacebookIcon   className={classes.socials + " fab "}/>
+                  <FacebookIcon className={classes.socials + " fab "} />
                 </Button>
                 <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                  href = "https://www.instagram.com/cagdasfil/"
+                  href="https://www.instagram.com/cagdasfil/"
                 >
-                  <InstagramIcon   className={classes.socials + " fab "}/>
+                  <InstagramIcon className={classes.socials + " fab "} />
                 </Button>
               </CardFooter>
             </Card>
@@ -160,29 +160,29 @@ export default function TeamSection() {
                 <small className={classes.smallTitle}>Developer</small>
               </h4>
               <CardFooter className={classes.justifyCenter}>
-              <Button
+                <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                  href = "https://www.linkedin.com/in/sezgindogan/"
+                  href="https://www.linkedin.com/in/sezgindogan/"
                 >
-                  <LinkedInIcon   className={classes.socials + " fab "}/>
+                  <LinkedInIcon className={classes.socials + " fab "} />
                 </Button>
                 <Button
                   justIcon
-                  href = "https://www.facebook.com/dogan.sezgin.37"
+                  href="https://www.facebook.com/dogan.sezgin.37"
                   color="transparent"
                   className={classes.margin5}
                 >
-                  <FacebookIcon   className={classes.socials + " fab "}/>
+                  <FacebookIcon className={classes.socials + " fab "} />
                 </Button>
                 <Button
                   justIcon
-                  href = "https://www.instagram.com/dogansezginn/"
+                  href="https://www.instagram.com/dogansezginn/"
                   color="transparent"
                   className={classes.margin5}
                 >
-                  <InstagramIcon   className={classes.socials + " fab "}/>
+                  <InstagramIcon className={classes.socials + " fab "} />
                 </Button>
               </CardFooter>
             </Card>
@@ -198,29 +198,29 @@ export default function TeamSection() {
                 <small className={classes.smallTitle}>Developer</small>
               </h4>
               <CardFooter className={classes.justifyCenter}>
-              <Button
+                <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                  href = "https://www.linkedin.com/in/aykutyardim/"
+                  href="https://www.linkedin.com/in/aykutyardim/"
                 >
-                  <LinkedInIcon   className={classes.socials + " fab "}/>
+                  <LinkedInIcon className={classes.socials + " fab "} />
                 </Button>
                 <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                  href = "https://www.facebook.com/aykutyrdm"
+                  href="https://www.facebook.com/aykutyrdm"
                 >
-                  <FacebookIcon   className={classes.socials + " fab "}/>
+                  <FacebookIcon className={classes.socials + " fab "} />
                 </Button>
                 <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                  href = "https://www.instagram.com/aykutyrdm/"
+                  href="https://www.instagram.com/aykutyrdm/"
                 >
-                  <InstagramIcon   className={classes.socials + " fab "}/>
+                  <InstagramIcon className={classes.socials + " fab "} />
                 </Button>
               </CardFooter>
             </Card>
@@ -236,30 +236,30 @@ export default function TeamSection() {
                 <small className={classes.smallTitle}>Developer</small>
               </h4>
               <CardFooter className={classes.justifyCenter}>
-              <Button
+                <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                  href = "https://www.linkedin.com/in/abdulkadir-kilavuz/"
+                  href="https://www.linkedin.com/in/abdulkadir-kilavuz/"
                 >
-                  <LinkedInIcon   className={classes.socials + " fab "}/>
+                  <LinkedInIcon className={classes.socials + " fab "} />
                 </Button>
                 <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                  href = "https://www.facebook.com/TupolevTu160"
+                  href="https://www.facebook.com/TupolevTu160"
                 >
-                  <FacebookIcon   className={classes.socials + " fab "}/>
+                  <FacebookIcon className={classes.socials + " fab "} />
                 </Button>
                 <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                  href = "https://www.instagram.com/akadirkilavuz/"
-                  
+                  href="https://www.instagram.com/akadirkilavuz/"
+
                 >
-                  <InstagramIcon   className={classes.socials + " fab "}/>
+                  <InstagramIcon className={classes.socials + " fab "} />
                 </Button>
               </CardFooter>
             </Card>
