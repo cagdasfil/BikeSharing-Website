@@ -11,6 +11,8 @@ import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
 import Favorite from "@material-ui/icons/Favorite";
 
+import { Link } from "react-router-dom";
+
 import styles from "../../assets/jss/material-kit-react/components/footerStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -33,52 +35,33 @@ export default function Footer(props) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/?ref=mkr-footer"
+                href="https://gitlab.ceng.metu.edu.tr/group29-bikesharing/49x-bikesharing"
                 className={classes.block}
                 target="_blank"
               >
                 Our Works
               </a>
             </ListItem>
+
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/presentation?ref=mkr-footer"
-                className={classes.block}
-                target="_blank"
-              >
+              <Link to="/contacts" className={classes.block}>
                 About us
-              </a>
+              </Link>
             </ListItem>
+
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="http://blog.creative-tim.com/?ref=mkr-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Blog
-              </a>
+              <Link to="/contacts" className={classes.block}>
+                Contact us
+              </Link>
             </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/license?ref=mkr-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Licenses
-              </a>
-            </ListItem>
+
+
           </List>
         </div>
         <div className={classes.right}>
           &copy; {1900 + new Date().getYear()}
           <Favorite className={classes.icon} /> by{" "}
-          <a
-            href="https://www.creative-tim.com?ref=mkr-footer"
-            className={aClasses}
-            target="_blank"
-          >
             BikeSharing
-          </a>{" "}
         </div>
       </div>
     </footer>

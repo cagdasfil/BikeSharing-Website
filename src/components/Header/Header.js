@@ -8,18 +8,23 @@ import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
-import Button from "@material-ui/core/Button";
 import Hidden from "@material-ui/core/Hidden";
 import Drawer from "@material-ui/core/Drawer";
 // @material-ui/icons
 import Menu from "@material-ui/icons/Menu";
+
 // core components
 import styles from "../../assets/jss/material-kit-react/components/headerStyle.js";
+
+import BikesharingTabs from "../../views/components/Tabs/BikesharingTabs.js"
+import DetailsTabs from "../../views/components/Tabs/DetailsTabs.js"
+import ContactsTabs from "../../views/components/Tabs/ContactsTabs.js"
 
 const useStyles = makeStyles(styles);
 
 export default function Header(props) {
   const classes = useStyles();
+
   const [mobileOpen, setMobileOpen] = React.useState(false);
   React.useEffect(() => {
     if (props.changeColorOnScroll) {
@@ -53,29 +58,28 @@ export default function Header(props) {
         .classList.remove(classes[changeColorOnScroll.color]);
     }
   };
-  const { color, rightLinks, leftLinks, brand, fixed, absolute } = props;
+  const { color, rightLinks, leftLinks, page, fixed, absolute } = props;
   const appBarClasses = classNames({
     [classes.appBar]: true,
     [classes[color]]: color,
     [classes.absolute]: absolute,
     [classes.fixed]: fixed
   });
-  const brandComponent = <Button className={classes.title}>{brand}</Button>;
+
   return (
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>
-        {leftLinks !== undefined ? brandComponent : null}
+        {leftLinks !== undefined ? rightLinks : null}
         <div className={classes.flex}>
-          {leftLinks !== undefined ? (
-            <Hidden smDown implementation="css">
-              {leftLinks}
-            </Hidden>
-          ) : (
-            brandComponent
-          )}
+          {rightLinks}
+
         </div>
         <Hidden smDown implementation="css">
-          {rightLinks}
+          {page === "Bike Sharing" ? (<BikesharingTabs />) : null}
+          {page === "Details" ? (<DetailsTabs />) : null}
+          {page === "Contacts" ? (<ContactsTabs />) : null}
+
+
         </Hidden>
         <Hidden mdUp>
           <IconButton
@@ -98,7 +102,6 @@ export default function Header(props) {
           onClose={handleDrawerToggle}
         >
           <div className={classes.appResponsive}>
-            {leftLinks}
             {rightLinks}
           </div>
         </Drawer>

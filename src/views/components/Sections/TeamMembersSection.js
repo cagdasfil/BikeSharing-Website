@@ -30,7 +30,7 @@ import LanguageIcon from '@material-ui/icons/Language';
 
 const useStyles = makeStyles(styles);
 
-export default function TeamSection() {
+export default function TeamMembersSection() {
   const classes = useStyles();
   const imageClasses = classNames(
     classes.imgRaised,

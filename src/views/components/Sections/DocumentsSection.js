@@ -29,7 +29,7 @@ import kickoff from "../../../documents/BikeSharing-kickoff.pdf"
 const useStyles = makeStyles(styles);
 const useTeamStyles = makeStyles(teamStyles);
 
-export default function SectionDownload() {
+export default function DocumentsSection() {
   const classes = useStyles();
   const teamClasses = useTeamStyles();
   return (

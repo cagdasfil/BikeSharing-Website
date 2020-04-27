@@ -6,14 +6,19 @@ import { Router, Route, Switch } from "react-router-dom";
 import "./assets/scss/material-kit-react.scss?v=1.8.0";
 
 // pages for this product
-import Components from "./views/components/Components.js";
+import Bikesharing from "./views/components/Bikesharing.js";
+import Details from "./views/components/Details.js";
+import Contacts from "./views/components/Contacts.js";
 
 var hist = createBrowserHistory();
 
 ReactDOM.render(
   <Router history={hist}>
     <Switch>
-      <Route path="/" component={Components} />
+      <Route path="/details" component={Details} />
+      <Route path="/contacts" component={Contacts} />
+      <Route path="/" component={Bikesharing} />
+
     </Switch>
   </Router>,
   document.getElementById("root")

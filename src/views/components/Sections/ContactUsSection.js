@@ -18,7 +18,7 @@ import Alert from '@material-ui/lab/Alert';
 
 const useStyles = makeStyles(styles);
 
-export default function WorkSection() {
+export default function ContactUsSection() {
 
     const classes = useStyles();
 
