@@ -11,6 +11,7 @@ import HeaderLinks from "../../components/Header/HeaderLeftLinks.js";
 
 // background and sections
 import HowItWorksSection from "./Sections/HowItWorksSection.js"
+import ZonesSection from "./Sections/ZonesSection.js"
 import Background from "./Background.js"
 
 // styles
@@ -34,9 +35,10 @@ export default function Bikesharing(props) {
         {...rest}
       />
       <Background />
-      <div className={classNames(classes.main, classes.mainRaised)}>
+      <div style={{ height: '1300px' }} className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <HowItWorksSection />
+          <ZonesSection />
         </div>
       </div>
       <Footer />
