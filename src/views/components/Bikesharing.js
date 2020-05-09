@@ -12,7 +12,8 @@ import HeaderLinks from "../../components/Header/HeaderLeftLinks.js";
 // background and sections
 import HowItWorksSection from "./Sections/HowItWorksSection.js"
 import ZonesSection from "./Sections/ZonesSection.js"
-import Background from "./Background.js"
+//import Background from "./Background.js"
+import BackgroundForGetBikesharing from "./BackgroundForGetBikesharing.js"
 
 // styles
 import styles from "./../../assets/jss/material-kit-react/views/landingPage.js";
@@ -34,7 +35,7 @@ export default function Bikesharing(props) {
         }}
         {...rest}
       />
-      <Background />
+      <BackgroundForGetBikesharing />
       <div style={{ height: '1300px' }} className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <HowItWorksSection />
