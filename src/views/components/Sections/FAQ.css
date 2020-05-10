@@ -1,0 +1,22 @@
+.FAQ__question {
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+    font-Family: "Roboto Slab", "Times New Roman", serif,
+    
+  }
+  
+  .FAQ__question:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .FAQ__answer--hidden {
+    width: 100%;
+    display: none;
+  }
+  
