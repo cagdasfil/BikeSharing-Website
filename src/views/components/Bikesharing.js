@@ -38,10 +38,10 @@ export default function Bikesharing(props) {
         {...rest}
       />
       <BackgroundForGetBikesharing />
-      <div style={{ height: '2500px' }} className={classNames(classes.main, classes.mainRaised)}>
+      <div style={{ height: '2700px' }} className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <HowItWorksSection />
-          <Box pb={100}>
+          <Box pb={80}>
             <ZonesSection />
           </Box>
           <Box color="#FFFFFF" borderRadius="50px" >
