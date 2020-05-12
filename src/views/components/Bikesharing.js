@@ -44,7 +44,7 @@ export default function Bikesharing(props) {
           <Box pb={100}>
             <ZonesSection />
           </Box>
-          <Box color="#FFFFFF" borderRadius="50px" bgcolor="rgba(10, 9, 0, 0.92)">
+          <Box color="#FFFFFF" borderRadius="50px" >
             <QuestionnairesSection />
           </Box>
         </div>

@@ -4,10 +4,14 @@
     width: 100%;
     text-align: left;
     font-size: 15px;
-    color: white;
+    color: black;
     font-weight: bolder;
     font-Family: "Roboto Slab", "Times New Roman", serif,
     
+  }
+
+  .answer{
+    color: black;
   }
   
   .FAQ__question:hover {
@@ -18,5 +22,6 @@
   .FAQ__answer--hidden {
     width: 100%;
     display: none;
+    color: "#999";
   }
   

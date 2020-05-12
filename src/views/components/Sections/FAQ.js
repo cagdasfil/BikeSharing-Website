@@ -55,11 +55,11 @@ function Question({ children, isOpen, answerId, onToggle }) {
 }
 
 function Answer({ children, id, isOpen }) {
-  const mergedClassname = classNames("FAQ__answer", {
+  const mergedClassname = classNames("answer","FAQ__answer", {
     "FAQ__answer--hidden": !isOpen
   });
   return (
-    <dd>
+    <dd >
       <p align="left" className={mergedClassname} id={id}>
         {children}
       </p>

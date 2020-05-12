@@ -21,7 +21,7 @@ export default function QuestionnairesSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.custom_title}>Questionnaires</h2>
+          <h2 className={classes.title}>Questionnaires</h2>
           <h5 className={classes.description}>
 
           </h5>
