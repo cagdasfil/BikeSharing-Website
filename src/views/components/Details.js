@@ -13,11 +13,14 @@ import HeaderLinks from "../../components/Header/HeaderLeftLinks.js";
 
 // background and sections
 import DocumentsSection from "./Sections/DocumentsSection.js"
-import Background from "./Background.js"
+import DetailsBackground from "./DetailsBackground.js"
 
 // styles
 import styles from "./../../assets/jss/material-kit-react/views/landingPage.js";
 import ValueSection from "./Sections/ValueSection.js";
+import DescriptionSection from "./Sections/DescriptionSection.js";
+import DesignSection from "./Sections/DesignSection.js";
+
 const useStyles = makeStyles(styles);
 
 export default function Details(props) {
@@ -36,9 +39,11 @@ export default function Details(props) {
                 }}
                 {...rest}
             />
-            <Background />
+            <DetailsBackground />
             <div className={classNames(classes.main, classes.mainRaised)}>
                 <div className={classes.container}>
+                    <DescriptionSection />
+                    <DesignSection />
                     <ValueSection />
                     <DocumentsSection />
                 </div>

@@ -11,7 +11,7 @@ import HeaderLinks from "../../components/Header/HeaderLeftLinks.js";
 
 // background and sections
 import TeamMembers from "./Sections/TeamMembersSection.js"
-import Background from "./Background.js"
+import ContuctUsBackground from "./ContactUsBackground.js"
 import ContactUsSection from "./Sections/ContactUsSection.js"
 
 // styles
@@ -34,7 +34,7 @@ export default function Contacts(props) {
                 }}
                 {...rest}
             />
-            <Background />
+            <ContuctUsBackground />
             <div className={classNames(classes.main, classes.mainRaised)}>
                 <div className={classes.container}>
                     <TeamMembers />
