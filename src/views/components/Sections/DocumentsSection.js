@@ -26,6 +26,9 @@ import prop from "../../../documents/BikeSharing.pdf"
 import designDoc from "../../../documents/BikeSharing-design.pdf"
 import kickoff from "../../../documents/BikeSharing-kickoff.pdf"
 
+import components from "../../../assets/img/components.png"
+import technologies from "../../../assets/img/technologies.png"
+
 const useStyles = makeStyles(styles);
 const useTeamStyles = makeStyles(teamStyles);
 
