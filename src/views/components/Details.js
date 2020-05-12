@@ -17,6 +17,7 @@ import Background from "./Background.js"
 
 // styles
 import styles from "./../../assets/jss/material-kit-react/views/landingPage.js";
+import ValueSection from "./Sections/ValueSection.js";
 const useStyles = makeStyles(styles);
 
 export default function Details(props) {
@@ -38,6 +39,7 @@ export default function Details(props) {
             <Background />
             <div className={classNames(classes.main, classes.mainRaised)}>
                 <div className={classes.container}>
+                    <ValueSection />
                     <DocumentsSection />
                 </div>
             </div>
