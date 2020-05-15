@@ -8,16 +8,38 @@ import GridContainer from "../../components/Grid/GridContainer.js";
 import GridItem from "../../components/Grid/GridItem.js";
 import Button from "../../components/CustomButtons/Button.js";
 import Parallax from "../../components/Parallax/Parallax.js";
-import styles from "./../../assets/jss/material-kit-react/views/landingPage.js";
+import styles from "../../assets/jss/material-kit-react/views/landingPage.js";
+
+// store-buttons Get BikeSharing
+import MobileStoreButton from 'react-mobile-store-button';
 
 const useStyles = makeStyles(styles);
 
 export default function Background(props) {
     const classes = useStyles();
     const { ...rest } = props;
+    const iOSUrl = '#';
+    const androidUrl = '#';
     return (
-        <Parallax filter image={require("../../assets/img/ss.jpg")}>
+        <Parallax filter image={require("../../assets/img/main.jpg")}>
             <div className={classes.container}>
+                <h1 className={classes.custom_title}> </h1>
+                <div>
+                    <MobileStoreButton
+                    store="android"
+                    url={androidUrl}
+                    width = {171}
+                    height = {161}
+                    linkProps={{ title: 'Google Play Button' }}
+                    />
+                    <MobileStoreButton
+                    store="ios"
+                    url={iOSUrl}
+                    width = {150}
+                    height = {150}
+                    linkProps={{ title: 'iOS Store Button' }}
+                    />    
+                </div>
                 <GridContainer>
                     <GridItem xs={12} sm={12} md={6}>
                         <h1 className={classes.title}></h1>
