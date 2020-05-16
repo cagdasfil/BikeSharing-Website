@@ -20,7 +20,10 @@ export default function ContactsTabs() {
         <List className={classes.list}>
             <ListItem className={classes.listItem}>
 
-                <Link to="/contacts" className={classes.dropdownLink}>
+                <Link to={{
+                    pathname: '/contacts',
+                    scroll: 650
+                }} className={classes.dropdownLink}>
                     <Button
                         color="transparent"
                         target="_blank"
@@ -32,7 +35,10 @@ export default function ContactsTabs() {
 
             </ListItem >
             <ListItem className={classes.listItem}>
-                <Link to="/contacts" className={classes.dropdownLink}>
+                <Link to={{
+                    pathname: '/contacts',
+                    scroll: 1500
+                }} className={classes.dropdownLink}>
                     <Button
                         color="transparent"
                         target="_blank"

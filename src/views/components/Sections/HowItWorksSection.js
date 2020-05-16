@@ -29,7 +29,8 @@ export default function HowItWorksSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Register and Login"
-              description="Download Bike Sharing mobile application and after login, find the closest renting area on zones pages to your location."
+              description="Download BikeSharing mobile application and login,
+              find the closest virtual zone by using zones page in the app."
               vertical
               imageName="DownloadApp"
             />
@@ -37,7 +38,7 @@ export default function HowItWorksSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Scan QR Code"
-              description="After updating your balance, scan the QR code on the bike and start to ride."
+              description="After loading enough money on your account, scan the QR code on the bike and start to ride."
               vertical
               imageName="ScanQr"
             />
@@ -45,7 +46,7 @@ export default function HowItWorksSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="End Session"
-              description="Find the closest returning area on zones page to your location and just click the end session to finish your session."
+              description="Find the closest virtual zone and click the end session button to finish your session."
               vertical
               imageName="EndSession"
             />

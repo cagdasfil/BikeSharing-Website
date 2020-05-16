@@ -21,7 +21,10 @@ export default function DetailsTabs() {
 
             <ListItem className={classes.listItem}>
 
-                <Link to="/details" className={classes.dropdownLink}>
+                <Link to={{
+                    pathname: '/details',
+                    scroll: 630
+                }} className={classes.dropdownLink}>
                     <Button
                         color="transparent"
                         target="_blank"
@@ -34,7 +37,10 @@ export default function DetailsTabs() {
 
             <ListItem className={classes.listItem}>
 
-                <Link to="/details" className={classes.dropdownLink}>
+                <Link to={{
+                    pathname: '/details',
+                    scroll: 2050
+                }} className={classes.dropdownLink}>
                     <Button
                         color="transparent"
                         target="_blank"
@@ -47,7 +53,10 @@ export default function DetailsTabs() {
 
             <ListItem className={classes.listItem}>
 
-                <Link to="/details" className={classes.dropdownLink}>
+                <Link to={{
+                    pathname: '/details',
+                    scroll: 3130
+                }} className={classes.dropdownLink}>
                     <Button
                         color="transparent"
                         target="_blank"
@@ -60,7 +69,10 @@ export default function DetailsTabs() {
 
             <ListItem className={classes.listItem}>
 
-                <Link to="/details" className={classes.dropdownLink}>
+                <Link to={{
+                    pathname: '/details',
+                    scroll: 3900
+                }} className={classes.dropdownLink}>
                     <Button
                         color="transparent"
                         target="_blank"
@@ -73,7 +85,10 @@ export default function DetailsTabs() {
 
             <ListItem className={classes.listItem}>
 
-                <Link to="/details" className={classes.dropdownLink}>
+                <Link to={{
+                    pathname: '/details',
+                    scroll: 3900
+                }} className={classes.dropdownLink}>
                     <Button
                         color="transparent"
                         target="_blank"

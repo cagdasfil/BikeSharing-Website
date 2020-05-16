@@ -15,6 +15,18 @@ const landingPageStyle = {
     color: "#FFFFFF",
     textDecoration: "none"
   },
+  custom_title: {
+    ...title,
+    display: "inline-block",
+    position: "relative",
+    marginTop: "5px",
+    marginBottom: "10px",
+    minHeight: "32px",
+    color: "rgba(255, 255, 255, 0.66)",
+    textDecoration: "none",
+    width: "400px",
+    fontSize: "2.313rem",
+  },
   subtitle: {
     fontSize: "1.313rem",
     maxWidth: "500px",

@@ -26,6 +26,9 @@ import prop from "../../../documents/BikeSharing.pdf"
 import designDoc from "../../../documents/BikeSharing-design.pdf"
 import kickoff from "../../../documents/BikeSharing-kickoff.pdf"
 
+import components from "../../../assets/img/components.png"
+import technologies from "../../../assets/img/technologies.png"
+
 const useStyles = makeStyles(styles);
 const useTeamStyles = makeStyles(teamStyles);
 
@@ -34,6 +37,7 @@ export default function DocumentsSection() {
   const teamClasses = useTeamStyles();
   return (
     <div className={teamClasses.section}>
+      
       <h2 className={teamClasses.title}>Documentation</h2>
 
       <div className={classes.container}>

@@ -15,6 +15,8 @@ import { Build, DirectionsBike, PermContactCalendar } from "@material-ui/icons";
 import Button from "../../components/CustomButtons/Button.js";
 import styles from "../../assets/jss/material-kit-react/components/headerLinksStyle.js";
 
+import logo from "../../assets/img/logo.png"
+
 const useStyles = makeStyles(styles);
 
 export default function HeaderLinks(props) {
@@ -30,7 +32,7 @@ export default function HeaderLinks(props) {
             target="_blank"
             className={classes.navLink}
           >
-            <DirectionsBike className={classes.icons} /> <tab /> Bike Sharing
+            <img src={logo} width={110}/>
           </Button>
         </Link>
 

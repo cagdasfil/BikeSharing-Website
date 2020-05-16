@@ -16,10 +16,12 @@
     "google-maps-react": "^2.0.6",
     "history": "^4.10.1",
     "node-sass": "^4.13.1",
+    "outset-react": "^2.3.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-google-maps": "^9.4.5",
     "react-hook-form": "^5.5.1",
+    "react-mobile-store-button": "0.0.6",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1"
   },
