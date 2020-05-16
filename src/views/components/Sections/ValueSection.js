@@ -22,7 +22,7 @@ export default function ValueSection() {
     <div className={classes.section}>
           <h2 className={teamClasses.title}>Value</h2>
           <br />
-          <h4 className={teamClasses.description}>
+          <h4 className={teamClasses.smallTitle}>
               Apart from offering users a simple and practical way of transportation, 
               BikeSharing also includes many advantageous features for system owners. Huge amount 
               of data is created while BikeSharing operates on an area. Detailed system usage data, 
@@ -31,7 +31,7 @@ export default function ValueSection() {
               to use on many different industries.
             </h4>
             <br />
-            <h4 className={teamClasses.description}>
+            <h4 className={teamClasses.smallTitle}>
               Transportation is one of the essential parts of the urban life. With the 
               integration of micromobility options, urban transportation stepped into new age. More 
               importantly, micromobility comes with data that gives significant information about 

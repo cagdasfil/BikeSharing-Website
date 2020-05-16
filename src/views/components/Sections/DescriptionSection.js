@@ -2,16 +2,12 @@
 import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-// @material-ui/icons
-import GridContainer from "../../../components/Grid/GridContainer.js";
-import GridItem from "../../../components/Grid/GridItem.js";
-import Button from "../../../components/CustomButtons/Button.js";
 // core components
 import styles from "../../../assets/jss/material-kit-react/views/componentsSections/downloadStyle.js";
 import teamStyles from "../../../assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 
 import components from "../../../assets/img/components.png"
-import technologies from "../../../assets/img/technologies.png"
+
 
 const useStyles = makeStyles(styles);
 const useTeamStyles = makeStyles(teamStyles);
@@ -24,7 +20,7 @@ export default function DescriptionSection() {
     <div className={teamClasses.section}>
       <h2 className={teamClasses.title}>Description</h2>
         <br />
-        <h4 className={teamClasses.description}>
+        <h4 className={teamClasses.smallTitle}>
           BikeSharing is an user-friendly rental bike project. The main purpose of the project is 
           to increase bike usage in Turkey keeping up with the developing world standards in order 
           to reduce traffic load and make people healthier. The developed project for this purpose, 
@@ -32,7 +28,7 @@ export default function DescriptionSection() {
           user who tag the developed mobile application with the individual QR code on smart-lock. 
         </h4>
         <br />
-        <h4 className={teamClasses.description}>
+        <h4 className={teamClasses.smallTitle}>
           By this way, the lock can be locked or unlocked at any time via the developed mobile app 
           which keeps in contact since tagging. The whole process is subject to a payment system, 
           starting with the user picking up the bike from the first particular area, and lasting 
@@ -43,12 +39,13 @@ export default function DescriptionSection() {
           and easy-to-use transportation environment. 
         </h4>
         <br />
-        <h4 className={teamClasses.description}>
+        <h4 className={teamClasses.smallTitle}>
           In these days when the safety, speed and using the time well are of great importance, 
           the BikeSharing will increase people's interest in cycling.
         </h4>
+        <br />
         <img src={components} width="75%"></img>
-        <h4 className={teamClasses.description}>
+        <h4 className={teamClasses.smallTitle}>
           BikeSharing system consists of the Mobile Application, Cloud Server and BSDatabase. 
           Both Mobile Application and BSDatabase are in contact with each other by communicating 
           with Cloud Server.  Mobile Application is the interface that provides to transmit data 
@@ -56,7 +53,7 @@ export default function DescriptionSection() {
           Cloud Server is the bridge among the BSDatabase and Mobile Application.
         </h4>
         <br />
-        <h4 className={teamClasses.description}>
+        <h4 className={teamClasses.smallTitle}>
           As the external points the Smart-Lock is connected to cloud server to take information 
           from Database which can be controlled by Mobile Application and it decides whether its 
           situation is open or close. Payment services are performed via the Mobile Application and 

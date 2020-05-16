@@ -18,19 +18,6 @@ export default function BikesharingTabs() {
     const classes = useStyles();
     return (
         <List className={classes.list}>
-            <ListItem className={classes.listItem}>
-
-                <Link to="/" className={classes.dropdownLink}>
-                    <Button
-                        color="transparent"
-                        target="_blank"
-                        className={classes.navLink}
-                    >
-                        GET BIKESHARING
-                    </Button>
-                </Link>
-
-            </ListItem >
 
             <ListItem className={classes.listItem}>
 
@@ -67,7 +54,7 @@ export default function BikesharingTabs() {
                         target="_blank"
                         className={classes.navLink}
                     >
-                        questionnaires
+                        QUESTIONS
                 </Button>
                 </Link>
             </ListItem>

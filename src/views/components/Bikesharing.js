@@ -15,7 +15,7 @@ import HowItWorksSection from "./Sections/HowItWorksSection.js";
 import ZonesSection from "./Sections/ZonesSection.js";
 //import Background from "./Background.js"
 import BikeSharingBackground from "./BikeSharingBackground.js";
-import QuestionnairesSection from "./Sections/QuestionnairesSection";
+import QuestionsSection from "./Sections/QuestionsSection";
 
 // styles
 import styles from "./../../assets/jss/material-kit-react/views/landingPage.js";
@@ -48,7 +48,7 @@ export default function Bikesharing(props) {
             <ZonesSection />
           </Box>
           <Box color="#FFFFFF" borderRadius="50px" >
-            <QuestionnairesSection />
+            <QuestionsSection />
           </Box>
         </div>
       </div>

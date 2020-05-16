@@ -15,7 +15,7 @@ import FAQ from "./FAQ";
 
 const useStyles = makeStyles(styles);
 
-export default function QuestionnairesSection() {
+export default function QuestionsSection() {
   const classes = useStyles();
   return (
     <div className={classes.section}>
@@ -44,7 +44,7 @@ export default function QuestionnairesSection() {
                         }}
                     </FAQ.Question>
                     <h2> </h2>
-                    <FAQ.Answer id="q1">BikeSharing is a bicycle sharing platform that provides its users easy-rentable process.</FAQ.Answer>
+                    <FAQ.Answer id="q1">BikeSharing is a bicycle rental platform that provides users easy-rentable process.</FAQ.Answer>
                     <h2></h2>
                   </FAQ.QAItem>
                   <FAQ.QAItem>
