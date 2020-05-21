@@ -18,7 +18,7 @@ export default function DetailsBackground(props) {
     return (
         <Parallax filter image={require("../../assets/img/Details.png")}>
             <div className={classes.container}>
-                <h1 className={classes.title} >Technical Aspects</h1>
+                <h1 className={classes.title} >Technical Details</h1>
             </div>
         </Parallax>
     );

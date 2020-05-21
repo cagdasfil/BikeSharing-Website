@@ -44,7 +44,7 @@ export default function HeaderLinks(props) {
             target="_blank"
             className={classes.navLink}
           >
-            <Build className={classes.icons} /> Project Details
+            <Build className={classes.icons} /> Technical Details
         </Button>
 
         </Link>

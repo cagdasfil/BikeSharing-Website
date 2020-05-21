@@ -40,7 +40,7 @@ export default function BikesharingTabs() {
 
                 <Link to={{
                     pathname: '/',
-                    scroll: 2300
+                    scroll: 3000
                 }} className={classes.dropdownLink}>
                     <Button
                         color="transparent"
@@ -57,7 +57,7 @@ export default function BikesharingTabs() {
 
                 <Link to={{
                     pathname: '/',
-                    scroll: 3000
+                    scroll: 3600
                 }} className={classes.dropdownLink}>
                     <Button
                         color="transparent"
@@ -73,7 +73,7 @@ export default function BikesharingTabs() {
 
                 <Link to={{
                     pathname: '/',
-                    scroll: 3900
+                    scroll: 4500
                 }} className={classes.dropdownLink}>
                     <Button
                         color="transparent"

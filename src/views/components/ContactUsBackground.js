@@ -16,9 +16,9 @@ export default function ContactUsBackground(props) {
     const classes = useStyles();
     const { ...rest } = props;
     return (
-        <Parallax filter image={require("../../assets/img/contact_us.jpg")}>
+        <Parallax filter image={require("../../assets/img/original.jpg")}>
             <div className={classes.container}>
-                
+                <h1 className={classes.title} >Contact Us</h1>
             </div>
         </Parallax>
     );

@@ -16,6 +16,7 @@ import CardFooter from "../../../components/Card/CardFooter.js";
 import card1 from "../../../assets/img/card1.png"
 import card2 from "../../../assets/img/card2.png"
 import card3 from "../../../assets/img/card3.png"
+import card4 from "../../../assets/img/card4.png"
 
 
 
@@ -26,13 +27,17 @@ export default function EntranceSection() {
   return (
         <div>
             <br />
+            <div className={classes.title} style={{textAlign:"center", fontStyle:"italic"}}>
+                <h2>" a new perspective on bike sharing platforms "</h2>
+            </div>
+            <br/>
             <div style={{paddingRight:100, marginTop:50}}>
                 <Card>
                     <div style={{display:"flex"}}>
                         <img src={card1} width={500}/>
                         <div style={{width:"100%", textAlign:"center", margin:"auto", padding:20}}>
                             <h3>BikeSharing uses virtual zones instead of physical bike stations. 
-                                Virtual zones bring easy installation and management features with no cost.</h3>
+                                Virtual zones bring easy installation and management features with no cost</h3>
                         </div>
                     </div>
                 </Card>
@@ -52,7 +57,17 @@ export default function EntranceSection() {
                     <div style={{display:"flex"}}>
                         <img src={card3} width={500}/>
                         <div style={{width:"100%", textAlign:"center", margin:"auto", padding:20}}>
-                            <h3>BikeSharing collects the data generated during use. Detailed analysis and reports are presented on BikeSharing dashboard by using the collected data.</h3>
+                            <h3>BikeSharing collects the data generated during use. Detailed analysis and reports are presented on BikeSharing dashboard by using the collected data</h3>
+                        </div>
+                    </div>
+                </Card>
+            </div>
+            <div style={{paddingLeft:100, marginTop:50}}>
+                <Card>
+                    <div style={{display:"flex", direction:"rtl"}}>
+                        <img src={card4} width={500}/>
+                        <div style={{width:"100%", textAlign:"center", margin:"auto", padding:20}}>
+                            <h3>BikeSharing platform is created to be integrated with smart locks using different technologies</h3>
                         </div>
                     </div>
                 </Card>
