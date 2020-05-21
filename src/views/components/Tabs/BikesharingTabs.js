@@ -18,15 +18,19 @@ export default function BikesharingTabs() {
     const classes = useStyles();
     return (
         <List className={classes.list}>
+
             <ListItem className={classes.listItem}>
 
-                <Link to="/" className={classes.dropdownLink}>
+                <Link to={{
+                    pathname: '/',
+                    scroll: 600
+                }} className={classes.dropdownLink}>
                     <Button
                         color="transparent"
                         target="_blank"
                         className={classes.navLink}
                     >
-                        GET BIKESHARING
+                        introduction
                     </Button>
                 </Link>
 
@@ -34,7 +38,10 @@ export default function BikesharingTabs() {
 
             <ListItem className={classes.listItem}>
 
-                <Link to="/" className={classes.dropdownLink}>
+                <Link to={{
+                    pathname: '/',
+                    scroll: 3000
+                }} className={classes.dropdownLink}>
                     <Button
                         color="transparent"
                         target="_blank"
@@ -48,7 +55,10 @@ export default function BikesharingTabs() {
 
             <ListItem className={classes.listItem}>
 
-                <Link to="/" className={classes.dropdownLink}>
+                <Link to={{
+                    pathname: '/',
+                    scroll: 3600
+                }} className={classes.dropdownLink}>
                     <Button
                         color="transparent"
                         target="_blank"
@@ -61,13 +71,16 @@ export default function BikesharingTabs() {
 
             <ListItem className={classes.listItem}>
 
-                <Link to="/" className={classes.dropdownLink}>
+                <Link to={{
+                    pathname: '/',
+                    scroll: 4500
+                }} className={classes.dropdownLink}>
                     <Button
                         color="transparent"
                         target="_blank"
                         className={classes.navLink}
                     >
-                        questionnaires
+                        QUESTIONS
                 </Button>
                 </Link>
             </ListItem>

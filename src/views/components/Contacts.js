@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // @material-ui/core components
@@ -11,7 +11,7 @@ import HeaderLinks from "../../components/Header/HeaderLeftLinks.js";
 
 // background and sections
 import TeamMembers from "./Sections/TeamMembersSection.js"
-import Background from "./Background.js"
+import ContuctUsBackground from "./ContactUsBackground.js"
 import ContactUsSection from "./Sections/ContactUsSection.js"
 
 // styles
@@ -20,6 +20,13 @@ const useStyles = makeStyles(styles);
 
 export default function Contacts(props) {
     const classes = useStyles();
+
+    useEffect(() => {
+        const scroll = props.location.scroll ? props.location.scroll : 0
+        window.scrollTo({ behavior: 'smooth', top: scroll })
+    });
+
+
     const { ...rest } = props;
     return (
         <div>
@@ -34,7 +41,7 @@ export default function Contacts(props) {
                 }}
                 {...rest}
             />
-            <Background />
+            <ContuctUsBackground />
             <div className={classNames(classes.main, classes.mainRaised)}>
                 <div className={classes.container}>
                     <TeamMembers />

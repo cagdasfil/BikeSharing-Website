@@ -10,7 +10,7 @@ import Bikesharing from "./views/components/Bikesharing.js";
 import Details from "./views/components/Details.js";
 import Contacts from "./views/components/Contacts.js";
 
-var hist = createBrowserHistory();
+var hist = createBrowserHistory({basename:'2020/bikesharing/#/'});
 
 ReactDOM.render(
   <Router history={hist}>
