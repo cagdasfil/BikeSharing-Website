@@ -52,15 +52,9 @@ export default function Bikesharing(props) {
           <EntranceSection />
           <br />
           <br />
-          <br />
-          <br />
           <HowItWorksSection />
           <br />
           <br />
-          <br />
-          <br />
-
-
           <Box pb={80}>
             <ZonesSection />
           </Box>

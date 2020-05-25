@@ -22,11 +22,15 @@ export default function HowItWorksSection() {
           <h5 className={classes.description}>
 
           </h5>
+          <br />
+          <br />
+          <br />
         </GridItem>
       </GridContainer>
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
+
             <InfoArea
               title="Register and Login"
               description="Download BikeSharing mobile application and login,
