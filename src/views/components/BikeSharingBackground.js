@@ -12,6 +12,7 @@ import styles from "../../assets/jss/material-kit-react/views/landingPage.js";
 
 // store-buttons Get BikeSharing
 import MobileStoreButton from 'react-mobile-store-button';
+import { blue } from "@material-ui/core/colors";
 
 const useStyles = makeStyles(styles);
 
@@ -21,17 +22,17 @@ export default function Background(props) {
     const iOSUrl = '#';
     const androidUrl = '#';
     return (
-        <Parallax filter image={require("../../assets/img/main.jpg")}>
-                <div className={classes.container}>
+        <Parallax filter image={require("../../assets/img/ss.jpg")}>
+        <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Your Story Starts With Us.</h1>
-              <h4>
-                Every landing page needs a small description after the big bold
-                title, that{"'"}s why we added this text here. Add here all the
-                information that can make you or your product create the first
-                impression.
-              </h4>
+              <h1 className={classes.title}>BikeSharing</h1>
+              <h3 className={classes.title} styles={{'backdrop-filter': 'blur(3px)'}}><i>
+               'a new perspective on bike sharing platforms...'</i> </h3>
+              <br />
+              <br />
+              <br />
+              <br />
               <br />
               <Button
                 color="danger"
@@ -44,22 +45,25 @@ export default function Background(props) {
                 Watch video
               </Button>
 
-              <MobileStoreButton
+              
+            </GridItem>
+            <GridItem xs={12} sm={12} md={3}></GridItem>
+            <GridItem xs={12} sm={12} md={3}>
+            <MobileStoreButton
                     store="android"
                     url={androidUrl}
-                    width = {171}
-                    height = {161}
+                    width = {131}
+                    height = {131}
                     linkProps={{ title: 'Google Play Button' }}
                     />
                     <MobileStoreButton
                     store="ios"
                     url={iOSUrl}
-                    width = {150}
-                    height = {150}
+                    width = {120}
+                    height = {123}
                     linkProps={{ title: 'iOS Store Button' }}
                     />    
             </GridItem>
-
           </GridContainer>
         </div>
         </Parallax>
