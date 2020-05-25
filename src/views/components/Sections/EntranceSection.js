@@ -26,11 +26,21 @@ export default function EntranceSection() {
   const classes = useStyles();
   return (
         <div>
-            <br />
+             <div className={classes.section}>
+                <h2 className={classes.title}>What is BikeSharing ?</h2>
+                <div className={classes.title} style={{textAlign:"center", paddingLeft:60, paddingRight:60}}>
+                    <h3>BikeSharing is a platform that aims to provide the best service to users and system owners 
+                        by bringing new generation technologies together with bike sharing platforms. BikeSharing 
+                        works with vendors like campus presidencies or municipal administrations. Vendors provide
+                        smart lock integrated bikes, BikeSharing offers an easy-to-use mobile app for users and a
+                        powerful dashboard for vendors in return.
+                    </h3>
+                </div>
+            </div>
+
             <div className={classes.title} style={{textAlign:"center", fontStyle:"italic"}}>
                 <h2>" a new perspective on bike sharing platforms "</h2>
             </div>
-            <br/>
             <div style={{paddingRight:100, marginTop:50}}>
                 <Card>
                     <div style={{display:"flex"}}>
@@ -42,7 +52,7 @@ export default function EntranceSection() {
                     </div>
                 </Card>
             </div>
-            <div style={{paddingLeft:100, marginTop:50}}>
+            <div style={{paddingLeft:100, marginTop:100}}>
                 <Card>
                     <div style={{display:"flex", direction:"rtl"}}>
                         <img src={card2} width={500}/>
@@ -52,7 +62,7 @@ export default function EntranceSection() {
                     </div>
                 </Card>
             </div>
-            <div style={{paddingRight:100, marginTop:50}}>
+            <div style={{paddingRight:100, marginTop:100}}>
                 <Card>
                     <div style={{display:"flex"}}>
                         <img src={card3} width={500}/>
@@ -62,7 +72,7 @@ export default function EntranceSection() {
                     </div>
                 </Card>
             </div>
-            <div style={{paddingLeft:100, marginTop:50}}>
+            <div style={{paddingLeft:100, marginTop:100}}>
                 <Card>
                     <div style={{display:"flex", direction:"rtl"}}>
                         <img src={card4} width={500}/>

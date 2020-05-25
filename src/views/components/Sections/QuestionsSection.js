@@ -22,18 +22,16 @@ export default function QuestionsSection() {
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>BikeSharing in 10 Questions</h2>
-          <h5 className={classes.description}>
-
-          </h5>
+         <br />
         </GridItem>
       </GridContainer>
-      <div>
+      <div style={{paddingLeft:20}}>
         <GridContainer>
           <GridItem  xs={12} sm={12} md={12}>
             <div>
               <FAQ>
                   <FAQ.QAItem>
-                    <FAQ.Question answerId="q1">
+                    <FAQ.Question answerId="q3">
                         {(isOpen, onToggle) => {
                         return (
                             <>
@@ -44,11 +42,11 @@ export default function QuestionsSection() {
                         }}
                     </FAQ.Question>
                     <h2> </h2>
-                    <FAQ.Answer id="q1">BikeSharing is a bicycle rental platform that provides users easy-rentable process.</FAQ.Answer>
+                    <FAQ.Answer id="q3">BikeSharing is a bicycle rental platform that provides users easy-rentable process.</FAQ.Answer>
                     <h2></h2>
                   </FAQ.QAItem>
                   <FAQ.QAItem>
-                    <FAQ.Question answerId="q2">
+                    <FAQ.Question answerId="q3">
                         {(isOpen, onToggle) => {
                         return (
                             <>
@@ -59,7 +57,7 @@ export default function QuestionsSection() {
                         }}
                     </FAQ.Question>
                     <h2> </h2>
-                    <FAQ.Answer id="q2"> While providing eco-friendly transportation to facilitate reaching the no-traffic areas and short distance, to help personal health. </FAQ.Answer>
+                    <FAQ.Answer id="q3"> While providing eco-friendly transportation to facilitate reaching the no-traffic areas and short distance, to help personal health. </FAQ.Answer>
                     <h2></h2>
                   </FAQ.QAItem>
                   <FAQ.QAItem>
@@ -68,7 +66,7 @@ export default function QuestionsSection() {
                         return (
                             <>
                             {isOpen ? "- " : "+ "}
-                            <span>3) In what way is the "BikeSharing" eco-friendly ?</span>
+                            <span>3) In what way is the BikeSharing eco-friendly ?</span>
                             </>
                         );
                         }}
@@ -83,7 +81,7 @@ export default function QuestionsSection() {
                         return (
                             <>
                             {isOpen ? "- " : "+ "}
-                            <span>4) In what way does the "BikeSharing" help personal health ?</span>
+                            <span>4) In what way does the BikeSharing help personal health ?</span>
                             </>
                         );
                         }}
@@ -119,7 +117,7 @@ export default function QuestionsSection() {
                         }}
                     </FAQ.Question>
                     <h2> </h2>
-                    <FAQ.Answer id="q3"> You can change the bike in first 5 min without any payment. </FAQ.Answer>
+                    <FAQ.Answer id="q3"> You can change the bike in first 5 minutes without any payment. </FAQ.Answer>
                     <h2></h2>
                   </FAQ.QAItem>
                   <FAQ.QAItem>
@@ -149,7 +147,7 @@ export default function QuestionsSection() {
                         }}
                     </FAQ.Question>
                     <h2> </h2>
-                    <FAQ.Answer id="q3"> You are debited to BikeSharing and the debt is charged the next time you use it. </FAQ.Answer>
+                    <FAQ.Answer id="q3"> You are debited to BikeSharing and the debt is charged the next time load money. </FAQ.Answer>
                     <h2></h2>
                   </FAQ.QAItem>
                   <FAQ.QAItem>
@@ -164,7 +162,7 @@ export default function QuestionsSection() {
                         }}
                     </FAQ.Question>
                     <h2> </h2>
-                    <FAQ.Answer id="q3"> Yes, you can withdraw your money in the balance, via BikeSharing mobile app whenever you want. </FAQ.Answer>
+                    <FAQ.Answer id="q3"> Yes, you can withdraw your money in the account, via BikeSharing mobile app whenever you want. </FAQ.Answer>
                     <h2></h2>
                   </FAQ.QAItem>
                   <FAQ.QAItem>
