@@ -23,7 +23,13 @@ export default function Background(props) {
     return (
         <Parallax filter image={require("../../assets/img/main.jpg")}>
             <div className={classes.container}>
-                <h1 className={classes.custom_title}> </h1>
+                <div style={{fontWeight:"900", /*color:"#23395b"*/}}>
+                    <br/>
+                    <h1>BikeSharing</h1>
+                    <h2>next generation bike sharing platform</h2>
+                </div>
+                <br />
+                <br />
                 <div>
                     <MobileStoreButton
                     store="android"
@@ -42,9 +48,6 @@ export default function Background(props) {
                 </div>
                 <GridContainer>
                     <GridItem xs={12} sm={12} md={6}>
-                        <h1 className={classes.title}></h1>
-                        <h4>
-                        </h4>
                         <br />
                         <Button
                             color="danger"
@@ -56,8 +59,10 @@ export default function Background(props) {
                             <i className="fas fa-play" />
                              Watch video
                             </Button>
+                        
                     </GridItem>
                 </GridContainer>
+                
             </div>
         </Parallax>
     );
