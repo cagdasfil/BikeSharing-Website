@@ -76,6 +76,21 @@ export default function DetailsTabs() {
                         color="transparent"
                         target="_blank"
                         className={classes.navLink}
+                    > POSTER
+                </Button>
+                </Link>
+
+            </ListItem >
+            <ListItem className={classes.listItem}>
+
+                <Link to={{
+                    pathname: '/details',
+                    scroll: 3900
+                }} className={classes.dropdownLink}>
+                    <Button
+                        color="transparent"
+                        target="_blank"
+                        className={classes.navLink}
                     > DEMO
                 </Button>
                 </Link>
