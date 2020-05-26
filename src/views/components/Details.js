@@ -20,7 +20,8 @@ import styles from "./../../assets/jss/material-kit-react/views/landingPage.js";
 import ValueSection from "./Sections/ValueSection.js";
 import DescriptionSection from "./Sections/DescriptionSection.js";
 import DesignSection from "./Sections/DesignSection.js";
-
+import DemoSection from "./Sections/DemoSection";
+import PosterSection from "./Sections/PosterSection";
 const useStyles = makeStyles(styles);
 
 export default function Details(props) {
@@ -52,6 +53,8 @@ export default function Details(props) {
                     <DescriptionSection />
                     <DesignSection />
                     <ValueSection />
+                    <PosterSection />
+                    <DemoSection />
                     <br />
                     <br />
                     <br />
