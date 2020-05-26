@@ -3,17 +3,14 @@ import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
-import GridContainer from "../../../components/Grid/GridContainer.js";
-import GridItem from "../../../components/Grid/GridItem.js";
-import Button from "../../../components/CustomButtons/Button.js";
 // core components
 import styles from "../../../assets/jss/material-kit-react/views/componentsSections/downloadStyle.js";
 import teamStyles from "../../../assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 
-import PictureAsPdfIcon from '@material-ui/icons/PictureAsPdf';
-import DescriptionIcon from '@material-ui/icons/Description';
-import SubjectIcon from '@material-ui/icons/Subject';
-import FindInPageIcon from '@material-ui/icons/FindInPage';
+import "../../../../node_modules/video-react/dist/video-react.css"; // import css
+
+import { Player } from 'video-react';
+
 
 const useStyles = makeStyles(styles);
 const useTeamStyles = makeStyles(teamStyles);
@@ -23,13 +20,16 @@ export default function DocumentsSection() {
   const teamClasses = useTeamStyles();
   return (
     <div className={teamClasses.section}>
-      
-      <h2 className={teamClasses.title}>Demo</h2>
 
-      <div className={classes.container}>
-        
+      <h2 className={teamClasses.title}>Demo Video</h2>
+      <br />
 
-       
+      <br />
+
+
+      <div className={classes.container}
+      >
+        <iframe width="800" height="500" src="https://www.youtube.com/embed/K4G8yDNCZvc"> </iframe>
       </div>
     </div>
   );

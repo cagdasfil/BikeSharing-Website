@@ -24,7 +24,9 @@
     "react-hook-form": "^5.5.1",
     "react-mobile-store-button": "0.0.6",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "video-react": "^0.14.1"
   },
   "scripts": {
     "start": "react-scripts start",

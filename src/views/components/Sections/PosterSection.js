@@ -72,6 +72,10 @@ export default function DocumentsSection() {
 
       <h2 className={teamClasses.title}>Poster</h2>
 
+      <br />
+      <br />
+
+
       <div className={classes.container}>
 
         <div>

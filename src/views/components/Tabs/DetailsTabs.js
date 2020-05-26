@@ -70,7 +70,7 @@ export default function DetailsTabs() {
 
                 <Link to={{
                     pathname: '/details',
-                    scroll: 3900
+                    scroll: 3800
                 }} className={classes.dropdownLink}>
                     <Button
                         color="transparent"
@@ -85,7 +85,7 @@ export default function DetailsTabs() {
 
                 <Link to={{
                     pathname: '/details',
-                    scroll: 3900
+                    scroll: 4550
                 }} className={classes.dropdownLink}>
                     <Button
                         color="transparent"
